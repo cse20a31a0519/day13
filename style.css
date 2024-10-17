@@ -1,0 +1,99 @@
+.A{
+    background-image: url(https://1847884116.rsc.cdn77.org/tamil/news/social/saipallavi290519_1t-ffd.jpg);
+    background-size: contain;
+    color:white;
+}
+h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-transform: capitalize; /* Optional to match the appearance */
+    text-decoration: underline ;
+}
+
+#B{
+    text-align:right;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 5px white;
+    
+
+}
+#C{
+    text-align: center;
+    text-transform: lowercase;
+    text-shadow: 3px 3px 5px white;
+}
+#D{
+    text-align: left;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-shadow: 3px 3px 5px white;
+}
+.h2{
+    text-align: center;
+    background-color: lightsalmon;
+    color: white;
+    text-transform: capitalize;
+}
+.sec{
+    background-color: lightsalmon;
+    text-align: center;
+    font-family: sans-serif;
+    color:white;
+}
+#head{
+    background-color: lightsalmon;
+    text-align: center; 
+    color: white;
+}
+.parent {
+    position: relative;  
+    width: 1520px;
+    height: 1200px;
+    background-image: linear-gradient(to right bottom,green, #77E4C8,#E4B1F0,yellow);
+}
+
+.child {
+    position: absolute;  
+    top: 18%;
+    left: 50%;
+    height: 280px;
+    width: 400px;
+    transform: translate(-50%, -50%);  
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid darkblue;  
+    border-radius: 5px; 
+}
+.child2{
+    position: absolute;
+    top:48%;
+    left:50%;
+    height: 280px;
+    width: 400px;
+    transform: translate(-50%, -50%);  
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid darkblue;  
+    border-radius: 5px; 
+}
+.child3{
+    position: absolute;
+    top:78%;
+    left:50%;
+    height: 280px;
+    width: 400px;
+    transform: translate(-50%, -50%);  
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid darkblue;  
+    border-radius: 5px; 
+}
+.id{
+    color:darkblue;
+    padding-top: 10px;
+}
